@@ -1,0 +1,31 @@
+name: image_udp_socket
+description: "Project for information security labs. Was done only for example of sending images through upd sockets."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.0.1
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  rxdart: ^0.28.0
+  network_info_plus: ^6.1.1
+  share_plus_platform_interface: ^5.0.1
+  encrypt: ^5.0.3
+  logger: ^2.5.0
+  image: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
